@@ -182,8 +182,9 @@ sns.barplot(
     palette="magma",
     legend=False
 )
-plt.title("Top 10 Most Important Features (Random Forest)")
+plt.title("Most Important Features (Random Forest)")
 plt.xlabel("Importance Score")
+plt.ylabel("")
 plt.tight_layout()
 plt.savefig("../figures/07_feature_importance.png")
 plt.show()
@@ -196,18 +197,17 @@ print("\n" + "=" * 40)
 print("INSIGHTS & CONCLUSIONS")
 print("=" * 40)
 print(f"""
-- Model Performance: Random Forest ({results.iloc[1]['Accuracy']:.2%}) significantly 
+- Random Forest ({results.iloc[1]['Accuracy']:.2%}) significantly 
   outperforms Logistic Regression ({results.iloc[0]['Accuracy']:.2%}). 
   This suggests that the relationship between symptoms and patient outcomes is 
   complex and non-linear rather than a simple additive effect.
 
-- Key Drivers: Age is the most dominant predictor, followed by systemic health 
-  indicators like Cholesterol and Blood Pressure.
+- Age has the highest feature importance, followed by Cholesterol Level.
 
-- Feature Logic: The use of Ordinal Encoding ensured the model respected the 
+- The use of Ordinal Encoding ensured the model respected the 
   biological gradient (Low < Normal < High) of health metrics.
 
-- Data Context: The small sample size (N=349) and 
-  intentional duplicates mean these results should be viewed as a 
+- The small sample size (N=349) and intentional
+duplicates mean these results should be viewed as a 
   methodological baseline rather than clinical fact.
 """)

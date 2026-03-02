@@ -95,9 +95,7 @@ Key observations:
 - Asthma and Stroke are among the most frequent diseases in the dataset.
 - Symptom prevalence varies significantly across diseases.
 - Fever and Difficulty Breathing show the strongest association with Positive outcomes.
-- Age alone does not strongly separate outcome classes visually; however, modeling indicates that age gains predictive value when combined with clinical indicators.
-
-Overall, the visualizations indicate that symptom patterns contribute more predictive signal than demographic variables, supporting the use of symptom-based features in baseline modeling.
+- While individual symptoms provide meaningful signals visually, demographic and systemic clinical indicators (like Age and Cholesterol) ultimately provide the strongest baseline for predictive modeling.
 
 ---
 
@@ -144,8 +142,7 @@ Tree-based models successfully identified that demographic and systemic health i
 <img src="figures/07_feature_importance.png" width="500">
 
 - **Age** is the most dominant predictor with an importance score of 0.34.
-- **Cholesterol Level** and **Blood Pressure** contribute significantly more to the final prediction than any isolated symptom.
-- While individual symptoms like **Fever** and **Cough** provide meaningful signals, their impact is smaller compared to the patient's broader clinical profile.
+- **Cholesterol Level** is the second most critical feature, highlighting the importance of systemic health metrics.
 
 ---
 
