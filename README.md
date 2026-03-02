@@ -22,28 +22,7 @@ Below is a chronological progression of my projects, showing skill development a
 
 ---
 
-### 1️⃣ Healthcare Data Analysis Project
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
-![EDA](https://img.shields.io/badge/EDA-Visualization-purple)
-![Status](https://img.shields.io/badge/Project-Complete-success)
-
-**Focus areas:**
-
-- Data cleaning and auditing (filtering unrealistic dates and negative values)  
-- Feature engineering (e.g., Length of Stay, Age Group, Billing Category)  
-- Advanced visualization and analytical storytelling  
-- Baseline machine learning pipelines (Logistic Regression, Random Forest)  
-- Methodological emphasis on pipeline reproducibility and leakage prevention  
-
-This project demonstrated how to build structured, reproducible analytics workflows on synthetic healthcare datasets.
-
-[View Healthcare Project](./healthcare_analysis_project)
-
----
-
-### 2️⃣ Disease Symptoms and Patient Profile Analysis
+### 1️⃣ Disease Symptoms and Patient Profile Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
@@ -64,7 +43,7 @@ This project highlighted the transition from linear relationships to capturing n
 
 ---
 
-### 3️⃣ Heart Failure Clinical Prediction and Geometric Modeling
+### 2️⃣ Heart Failure Clinical Prediction and Geometric Modeling
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
@@ -85,7 +64,7 @@ This project emphasized reproducible pipelines, leakage-free preprocessing, and 
 
 ---
 
-### 4️⃣ Stroke Risk Prediction and Explainable AI (SHAP)
+### 3️⃣ Stroke Risk Prediction and Explainable AI (SHAP)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
